@@ -251,7 +251,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 -disablegfxfirmware</string>
+		<string>-b</string>
 		<key>Debug</key>
 		<true/>
 		<key>DefaultVolume</key>
@@ -435,7 +435,7 @@
 			<false/>
 		</dict>
 		<key>ig-platform-id</key>
-		<string>0x3E9B0007</string>
+		<string>0x3E928086</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
