@@ -1,0 +1,46 @@
+
+Clover EFI installer log - Sun Jan  6 10:19:55 EET 2019
+Installer version: v2.4k r4813 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *1.0 TB     disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                  Apple_HFS Data                    999.9 GB   disk0s2
+
+/dev/disk1 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         240.1 GB   disk1
+   1:                        EFI EFI                     209.7 MB   disk1s1
+   2:                 Apple_APFS Container disk2         239.8 GB   disk1s2
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +239.8 GB   disk2
+                                 Physical Store disk1s2
+   1:                APFS Volume MacOS                   14.6 GB    disk2s1
+   2:                APFS Volume Preboot                 45.4 MB    disk2s2
+   3:                APFS Volume Recovery                517.0 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+
+Target volume /Volumes/MacOS on disk2 is APFS on physical store disk1s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/MacOS/EFIROOTDIR/EFI folder to /Volumes/MacOS/EFI-Backups/r4674/2019-01-06-10h19/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+======================================================
+Installing RC Scripts
+
+Installing RC scripts on target volume '/'
+
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
